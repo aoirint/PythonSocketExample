@@ -1,4 +1,5 @@
 # https://docs.python.org/ja/3/library/socket.html
+# https://qiita.com/note-tech/items/c3e1e497d231ea1e7ca7
 
 import socket
 
