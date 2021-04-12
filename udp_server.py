@@ -13,7 +13,7 @@ with socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM) as sock:
         if not binary_data: break
 
         data = binary_data.decode('utf-8')
-        print(data)
+        print(f'Received from {client_addr}: {data}')
 
         message = 'こんにちは、世界 🌏'
         binary_message = message.encode('utf-8')

@@ -15,4 +15,4 @@ with socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM) as sock:
 
 data = binary_data.decode('utf-8')
 
-print(f'Received: {data}')
+print(f'Received from {server_addr}: {data}')

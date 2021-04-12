@@ -16,4 +16,4 @@ with socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM) as sock:
 
 data = binary_data.decode('utf-8')
 
-print(f'Received: {data}')
+print(f'Received from {(HOST, PORT)}: {data}')
